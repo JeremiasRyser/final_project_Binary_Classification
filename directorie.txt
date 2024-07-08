@@ -1,0 +1,11 @@
+./data
+./data/processed
+./data/raw
+./notebooks
+./notebooks/jeremias
+./notebooks/mario
+./notebooks/tim
+./reports
+./scripts
+./streamlit_app
+./submissions
