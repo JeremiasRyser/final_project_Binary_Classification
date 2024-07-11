@@ -13,6 +13,7 @@ Link: https://www.kaggle.com/competitions/playground-series-s4e7
 Dataset Description
 The dataset for this competition (both train and test) was generated from a deep learning model trained on the Health Insurance Cross Sell Prediction Data dataset. Feature distributions are close to, but not exactly the same, as the original. Feel free to use the original dataset as part of this competition, both to explore differences as well as to see whether incorporating the original in training improves model performance.
 
+### 
 Variables description
 
 | Feature Name            | Type         | Description                                                                 |
@@ -29,6 +30,14 @@ Variables description
 | Policy_Sales_Channel    | Nominal      | Anonymized Code for the channel of outreaching to the customer (e.g., Different Agents, Over Mail, Over Phone, In Person, etc.). |
 | Vintage                 | Continuous   | Number of Days, Customer has been associated with the company.              |
 | Response (Dependent Feature) | Dichotomous  | 1 for Customer is interested, 0 for Customer is not interested.             |
+
+### Types and Descriptions
+
+| Type            | Description                                                                 |
+| --------------- | --------------------------------------------------------------------------- |
+| Continuous      | A continuous variable can take any value within a range. These values can include fractions and decimals. Continuous variables can be divided into infinitely smaller parts. |
+| Dichotomous     | A dichotomous variable has only two possible values. These are often represented as 0 and 1, but can also be other pairs like "yes/no" or "true/false". |
+| Nominal         | A nominal variable represents categories without any intrinsic order. The categories are names or labels, and numerical values used to represent them do not imply any order or magnitude. |
 
 ## Files
 - train.csv - the training dataset; Response is the binary target
