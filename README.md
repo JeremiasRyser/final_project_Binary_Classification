@@ -24,7 +24,7 @@ Variables description
 | Driving_License               | Dichotomous   | Binary      | Feature            | 0 for customer not having DL, 1 for customer having DL.                     |
 | Region_Code                   | Nominal       | Categorical | Feature            | Unique code for the region of the customer.                                 |
 | Previously_Insured            | Dichotomous   | Binary      | Feature            | 0 for customer not having vehicle insurance, 1 for customer having vehicle insurance. |
-| Vehicle_Age                   | Nominal       | Integer     | Feature            | Age of the vehicle.                                                         |
+| Vehicle_Age                   | Nominal       | Categorical | Feature            | Age of the vehicle.                                                         |
 | Vehicle_Damage                | Dichotomous   | Binary      | Feature            | Customer got his/her vehicle damaged in the past. 0: Customer didn't get his/her vehicle damaged in the past. |
 | Annual_Premium                | Continuous    | Integer     | Feature            | The amount customer needs to pay as premium in the year.                    |
 | Policy_Sales_Channel          | Nominal       | Categorical | Feature            | Anonymized Code for the channel of outreaching to the customer (e.g., Different Agents, Over Mail, Over Phone, In Person, etc.). |
