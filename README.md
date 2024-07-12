@@ -16,20 +16,21 @@ The dataset for this competition (both train and test) was generated from a deep
 ### 
 Variables description
 
-| Feature Name            | Type         | Description                                                                 |
-| ----------------------- | ------------ | --------------------------------------------------------------------------- |
-| id                      | Continuous   | Unique identifier for the Customer.                                         |
-| Age                     | Continuous   | Age of the Customer.                                                        |
-| Gender                  | Dichotomous  | Gender of the Customer.                                                     |
-| Driving_License         | Dichotomous  | 0 for customer not having DL, 1 for customer having DL.                     |
-| Region_Code             | Nominal      | Unique code for the region of the customer.                                 |
-| Previously_Insured      | Dichotomous  | 0 for customer not having vehicle insurance, 1 for customer having vehicle insurance. |
-| Vehicle_Age             | Nominal      | Age of the vehicle.                                                         |
-| Vehicle_Damage          | Dichotomous  | Customer got his/her vehicle damaged in the past. 0: Customer didn't get his/her vehicle damaged in the past. |
-| Annual_Premium          | Continuous   | The amount customer needs to pay as premium in the year.                    |
-| Policy_Sales_Channel    | Nominal      | Anonymized Code for the channel of outreaching to the customer (e.g., Different Agents, Over Mail, Over Phone, In Person, etc.). |
-| Vintage                 | Continuous   | Number of Days, Customer has been associated with the company.              |
-| Response (Dependent Feature) | Dichotomous  | 1 for Customer is interested, 0 for Customer is not interested.             |
+| Feature Name                  | DType         | Type        | Role               | Description                                                                 |
+| ----------------------------- | ------------- | ----------- | ------------------ | --------------------------------------------------------------------------- |
+| id                            | Continuous    | Integer     | Feature            | Unique identifier for the Customer.                                         |
+| Age                           | Continuous    | Integer     | Feature            | Age of the Customer.                                                        |
+| Gender                        | Dichotomous   | Binary      | Feature            | Gender of the Customer.                                                     |
+| Driving_License               | Dichotomous   | Binary      | Feature            | 0 for customer not having DL, 1 for customer having DL.                     |
+| Region_Code                   | Nominal       | Categorical | Feature            | Unique code for the region of the customer.                                 |
+| Previously_Insured            | Dichotomous   | Binary      | Feature            | 0 for customer not having vehicle insurance, 1 for customer having vehicle insurance. |
+| Vehicle_Age                   | Nominal       | Integer     | Feature            | Age of the vehicle.                                                         |
+| Vehicle_Damage                | Dichotomous   | Binary      | Feature            | Customer got his/her vehicle damaged in the past. 0: Customer didn't get his/her vehicle damaged in the past. |
+| Annual_Premium                | Continuous    | Integer     | Feature            | The amount customer needs to pay as premium in the year.                    |
+| Policy_Sales_Channel          | Nominal       | Categorical | Feature            | Anonymized Code for the channel of outreaching to the customer (e.g., Different Agents, Over Mail, Over Phone, In Person, etc.). |
+| Vintage                       | Continuous    | Integer     | Feature            | Number of Days, Customer has been associated with the company.              |
+| Response (Dependent Feature)  | Dichotomous   | Binary      | Target             | 1 for Customer is interested, 0 for Customer is not interested.             |
+
 
 ### Types and Descriptions
 
