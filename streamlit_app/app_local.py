@@ -7,21 +7,6 @@ from xgboost import XGBClassifier
 import matplotlib.pyplot as plt
 from matplotlib import rcParams
 import random
-import gdown
-
-# Google Drive URLs
-model_url = 'https://drive.google.com/uc?id=1u1bJnAZzxWBHl5537tcTa9-5qqSP-na8'
-scaler_url = 'https://drive.google.com/uc?id=1XNJRbbyqv9tvhwf04GCvn-fFTGzQsMWY'
-encoder_url = 'https://drive.google.com/uc?id=1k6X05we1Q2KvTQKo4qZJISn1vi_WE9G4'
-
-# Download files from Google Drive
-def download_file_from_google_drive(url, output):
-    gdown.download(url, output, quiet=False)
-
-download_file_from_google_drive(model_url, 'xgb_model.pkl')
-download_file_from_google_drive(scaler_url, 'scaler.pkl')
-download_file_from_google_drive(encoder_url, 'encoder.pkl')
-
 
 # Cache the loading of preprocessing objects
 @st.cache_data
